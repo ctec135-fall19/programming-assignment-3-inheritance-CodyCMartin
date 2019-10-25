@@ -30,12 +30,12 @@ namespace Prob_5
         {
             // creating Animal class objects to sort
 
-            Animal ani1 = new Animal("B", 2);
-            Animal ani2 = new Animal("A", 1);
-            Animal ani3 = new Animal("C", 1);
-            Animal ani4 = new Animal("B", 1);
-            Animal ani5 = new Animal("B", 2);
-            Animal ani6 = new Animal("B", 3);
+            Animal ani1 = new Animal("Billy", 2);
+            Animal ani2 = new Animal("Alex", 1);
+            Animal ani3 = new Animal("Cody", 3);
+            Animal ani4 = new Animal("Bob", 1);
+            Animal ani5 = new Animal("Brett", 2);
+            Animal ani6 = new Animal("Brad", 5);
 
             Console.WriteLine(ani1.CompareTo(ani2));
             Console.WriteLine();
@@ -50,7 +50,8 @@ namespace Prob_5
             aniArray[5] = ani6;
 
             //sorting 
-            Array.Sort(aniArray);
+            Array.Sort(aniArray);       
+
 
             //print!
             foreach (Animal element in aniArray)

@@ -1,4 +1,25 @@
-﻿using System;
+﻿/*
+Author: Cody Martin 
+Date:   10/20/2019
+CTEC 135
+
+
+Create a hierarchy of classes that demonstrates polymorphic behavior in the following situation
+An array of the base class type is created and initialized with a member of each class in the hierarchy
+Show that a method belonging to the base class is called from a child instance
+Demonstrate overriding a base class method by a child
+Demonstrate a child method calling the parent's method
+Demonstrate use of "as" keyword
+Demonstrate use of "is" keyword
+Demonstrate calling a method in a for loop iterating over the instances in the array
+Demonstrate calling a method in a foreach loop
+Demonstrate switch statement that responds differently depending upon the type of the object
+Create an object of "object" type, but initialized of the base class type, then cast it to the actual type so you can call a method
+Create an object of the base class type but initialized to a child type that has a specialized method. Call the specialized method by using casting.
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,6 +55,7 @@ namespace Prob_4
             #region 3
 
             //Child method overriding base method
+
             Console.WriteLine(c1.GetType());
             c1.PrintOverride();
 
